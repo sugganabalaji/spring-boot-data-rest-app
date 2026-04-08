@@ -7,12 +7,12 @@ spring:
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
-    hikari:
-      auto-commit: false
+#    hikari:
+#      auto-commit: false
 
   jpa:
     hibernate:
-      ddl-auto: create   # options: none, validate, update, create, create-drop
+      ddl-auto: update   # options: none, validate, update, create, create-drop
     show-sql: true
 
 # Show parameter values (instead of ? placeholders)
